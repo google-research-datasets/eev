@@ -12,7 +12,7 @@ Because this dataset is from YouTube videos. There may be instances where specif
 
 ## How to Cite the Dataset
 
-Please consider citing our [paper]((https://arxiv.org/abs/2001.05488)) if you find the dataset useful:
+Please consider citing our [paper](https://arxiv.org/abs/2001.05488) if you find the dataset useful:
 
 ```
 @article{sun2020eev,
