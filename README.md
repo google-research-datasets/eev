@@ -15,11 +15,11 @@ Because this dataset is from YouTube videos. There may be instances where specif
 Please consider citing our [paper](https://arxiv.org/abs/2001.05488) if you find the dataset useful:
 
 ```
-@article{sun2020eev,
-  title={EEV Dataset: Predicting Expressions Evoked by Diverse Videos},
-  author={Sun, Jennifer J and Liu, Ting and Cowen, Alan S and Schroff, Florian and Adam, Hartwig and Prasad, Gautam},
-  journal={arXiv preprint arXiv:2001.05488},
-  year={2020}
+@article{sun2021eev,
+      title={EEV: A Large-Scale Dataset for Studying Evoked Expressions from Video}, 
+      author={Sun, Jennifer J and Liu, Ting and Cowen, Alan S and Schroff, Florian and Adam, Hartwig and Prasad, Gautam},
+      year={2021},
+      journal={arXiv preprint arXiv:2001.05488}
 }
 ```
 ## License
