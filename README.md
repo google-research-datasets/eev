@@ -4,7 +4,7 @@ Videos can evoke a range of affective responses in viewers. The ability to predi
 
 ## Structure of the Dataset
 
-The datset consists of two files, train.csv and val.csv, that represent the training and validation splits respectively. We are not releasing the test split at this time. Each CSV file contains the expected facial expressions of someone reacting to a specific content video. Each line indicates a specific video represented by its video ID, a timestamp in milliseconds, and a set of expression scores. The first line of the CSV is a header with the labels for each column. The reaction annotations are sampled at 6 frames per second such that there could be thousands of lines for a single video.
+The datset consists of three files, train.csv, val.csv, and test.csv that represent the training, validation, and test splits respectively. We are not releasing the test actual expression scores for the test split at this time but still includes the video IDs and frame timestamps. Each CSV file contains the expected facial expressions of someone reacting to a specific content video. Each line indicates a specific video represented by its video ID, a timestamp in milliseconds, and a set of expression scores. The first line of the CSV is a header with the labels for each column. The reaction annotations are sampled at 6 frames per second such that there could be thousands of lines for a single video. Frames or videos where all the predicted expressions have a values of 0.0 represent locations where a detection didn't occur and may be ignored.
 
 ## Dataset Over Time
 
