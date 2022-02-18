@@ -10,6 +10,10 @@ The datset consists of three files, train.csv, val.csv, and test.csv that repres
 
 Because this dataset consists fo references to the original source, there may be instances where specific videos are no longer available on the platform and those annotations will be removed from the dataset. This means there is a possibility that the dataset may decrease in size over time.
 
+## Evaluation on the Test Split
+
+Our dataset is used as part of the EEV Challenge at the Affective Understanding in Video (AUVi) Workshop at CVPR 2021. The evaluator on the test split is currently up at: https://www.aicrowd.com/challenges/evoked-expressions-from-videos-challenge-cvpr-2021.
+
 ## How to Cite the Dataset
 
 Please consider citing our [paper](https://arxiv.org/abs/2001.05488) if you find the dataset useful:
